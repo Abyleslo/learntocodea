@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>LearnToCode/computer programming</title>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">LearnToCode</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900"><a href="index.html">Home</a></a>
+            <a class="mr-5 hover:text-gray-900"><a href="about.html">About</a></a>
+            <a class="mr-5 hover:text-gray-900"><a href="contactus.html">contact us</a></a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">search
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-col">
+          <div class="lg:w-4/6 mx-auto">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="data:image/jpeg;base64,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">
+            </div>
+            <div class="flex flex-col sm:flex-row mt-10">
+              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24"></svg>
+                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                  </svg>
+                </div>
+                <div class="flex flex-col items-center text-center justify-center">
+                  <h2 class="font-medium title-font mt-4 text-white text-lg">Ada Lovelace</h2>
+                  <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <p class="text-base text-gray-400">The first computer program is generally dated to 1843, when mathematician Ada Lovelace published an algorithm to calculate a sequence of Bernoulli numbers, intended to be carried out by Charles Babbage's Analytical Engine.</p>
+                </div>
+              </div>
+              <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p class="leading-relaxed text-lg mb-4">Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms in a chosen programming language (commonly referred to as coding). The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer, often for solving a given problem. Proficient programming thus often requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.
+
+                  Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs. These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation, or coding reserved for the actual writing of code. Software engineering combines engineering techniques with software development practices. Reverse engineering is a related process used by designers, analysts and programmers to understand and re-create/re-implement.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">LearnToCode</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 LearnToCode —
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>a
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-400">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg></a>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+</body>
+</html>
